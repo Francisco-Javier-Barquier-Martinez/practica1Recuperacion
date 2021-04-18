@@ -1,0 +1,23 @@
+{
+    "name": "franc/crud-practica",
+    "description": "Primera practica PDO + CRUD",
+    "type": "project",
+    "license": "GNU",
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Clases\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Francisco Javier Barquier Martinez",
+            "email": "47178869+Francisco-Javier-Barquier-Martinez@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.14"
+    }
+}
